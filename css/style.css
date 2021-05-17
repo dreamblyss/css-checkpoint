@@ -1,0 +1,203 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: fff;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height:7vh;
+    background-color: #53868B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav_one, #nav_two{
+    display: inline;
+}
+
+
+
+.nav{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px;
+}
+
+main{
+    width:60%;
+    margin: 1% 20%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.label{
+    width: 100%;
+    height: 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#53868B;
+}
+
+.container{
+    width:100%;
+    height:89%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: stretch;
+    padding: 0;
+}
+
+.box{
+    width: 32%;
+    height: 47%;
+    margin: 0;
+    border: 1px solid black;
+   
+}
+
+
+
+footer{
+    width: 100%;
+    height:20vh;
+    background-color: #53868B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    margin: 5px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_nav_two{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    align-content: stretch;
+
+}
+
+.box1{
+    background-color: #fff;
+    
+}
+
+.box1 div nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 div nav a,
+.box2 div nav a,
+.box3 div nav a,
+.box4 div nav a,
+.box5 div nav a,
+.box6 div nav a{
+    text-decoration: none;
+    color: navy;
+    font-size: 10px;
+}
+
+.banner{
+    width: 100%;
+    height: 100px;
+    color: da;
+    font-size: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: gold;
+    padding: 0 1px;
+
+}
+
+.places{
+    background-color: #fff;
+    border: none;
+    padding: 1px;
+    font-size: 11px;
+    margin: 1px;
+    color: #53868B;
+    font-weight: bold;
+}
+
+.form{
+    width: 100%;
+    height: 55%;
+    background-color:  #53868B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+fieldset{
+    width: 85%;
+    height: 80%;
+   
+}
+
+legend{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+input[type="text"]{
+
+    background-color: azure;
+    margin: 1px;
+    border: none;
+}
+
+textarea{
+    background-color: azure;
+    margin: 1px;
+    border: none;
+}
+
+.button{
+    padding: 1px;
+    
+}
+
+
